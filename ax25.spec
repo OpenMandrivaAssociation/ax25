@@ -13,6 +13,7 @@ Release: %{release}
 Source: lib%{name}-%{version}.tar.bz2
 Url: http://ax25.sourceforge.net/
 Group: Communications
+BuildRoot: %{_tmppath}/%{name}-buildroot
 License: GPL
 Requires: kernel >= 2.2
 

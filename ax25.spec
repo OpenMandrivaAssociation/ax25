@@ -1,6 +1,6 @@
 %define name ax25
 %define version 0.0.11
-%define release %mkrel 6
+%define release %mkrel 7
 
 %define major _0
 %define libname %mklibname %{name} %major
@@ -23,7 +23,7 @@ This package is split off from the previous ax25-utils.
 
 %package -n %libname
 Summary: Libraries for Amateur AX25 
-Group: Communications
+Group: System/Libraries
 Obsoletes: libax25
 Provides: libax25
 
@@ -33,7 +33,7 @@ Libraries for Amateur AX25
 
 %package -n %libnamedev
 Summary: Development package for %{name}
-Group: Communications
+Group: Development/C
 Requires: %libname = %version
 Provides: libax25-devel
 Provides: ax25-devel

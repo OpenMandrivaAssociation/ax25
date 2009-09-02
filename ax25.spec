@@ -47,7 +47,7 @@ This package is split off from the previous ax25-utils.
 
 %setup -q -n lib%{name}-%{version}
 
-%configure
+%configure2_5x
 
 %build
 

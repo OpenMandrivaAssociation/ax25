@@ -15,6 +15,7 @@ Source:		http://www.linux-ax25.org/pub/libax25/lib%{name}-%{version}-%{prerel}.t
 Url:		http://www.linux-ax25.org/wiki/LinuxAX25
 Group:		Communications
 BuildRoot:	%{_tmppath}/%{name}-buildroot
+BuildRequires:	zlib-devel
 License:	LGPLv2+
 
 %description

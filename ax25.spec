@@ -1,7 +1,7 @@
 %define name	ax25
 %define version	0.0.12
 %define prerel	rc2
-%define release	1
+%define release	2
 
 %define major		_0
 %define libname		%mklibname %{name} %{major}

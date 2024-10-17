@@ -12,7 +12,7 @@ Summary:	Libraries for Amateur AX25
 Version:	%{version}
 Release:	%mkrel -c %{prerel} %{release}
 Source:		http://www.linux-ax25.org/pub/libax25/lib%{name}-%{version}-%{prerel}.tar.gz
-Url:		http://www.linux-ax25.org/wiki/LinuxAX25
+Url:		https://www.linux-ax25.org/wiki/LinuxAX25
 Group:		Communications
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	zlib-devel

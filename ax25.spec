@@ -1,7 +1,7 @@
 %define name	ax25
 %define version	0.0.12
 %define prerel	rc2
-%define release	2
+%define release 3
 
 %define major		_0
 %define libname		%mklibname %{name} %{major}
@@ -10,7 +10,7 @@
 Name:		%{name}
 Summary:	Libraries for Amateur AX25 
 Version:	%{version}
-Release:	%mkrel -c %{prerel} %{release}
+Release:	-c %{prerel} %{release}.1
 Source:		http://www.linux-ax25.org/pub/libax25/lib%{name}-%{version}-%{prerel}.tar.gz
 Url:		https://www.linux-ax25.org/wiki/LinuxAX25
 Group:		Communications
